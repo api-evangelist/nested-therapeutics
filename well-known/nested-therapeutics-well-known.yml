@@ -1,0 +1,27 @@
+generated: '2026-08-26'
+method: probed
+source: https://nestedtx.com/
+note: >-
+  Probed the full /.well-known/ discovery surface on the only host Nested Therapeutics
+  operates, nestedtx.com. Every path returned 404. The origin is a WordPress site behind
+  WP Engine and answers unknown paths with a real 404 status (not a soft-200 catch-all),
+  so these are honest negatives rather than SPA false positives. NO WellKnown or SecurityTxt
+  pointer is emitted in apis.yml, because nothing was served.
+hit_count: 0
+hosts:
+- host: https://nestedtx.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
