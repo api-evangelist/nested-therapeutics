@@ -11,6 +11,17 @@ description: 'Nested Therapeutics is a clinical-stage biotechnology company foun
   two-page marketing website and press-release PDFs, and operates no public API, developer portal, SDK
   or machine-readable contract of any kind.'
 url: https://raw.githubusercontent.com/api-evangelist/nested-therapeutics/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://nestedtx.com/wp-content/uploads/2022/05/nested-logo.svg
 x-type: company
 x-source: harvest:secondary-market
