@@ -1,0 +1,26 @@
+# Front Door AI Index — nested-therapeutics — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: nested-therapeutics
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: nestedtx.com
+  final_host: nestedtx.com
+  ownership: own
+  owner: nested-therapeutics
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 2
+  host_score: 2
+  density: 0.21
+  words: 9625
+  tiers:
+    agentic: 0
+    core: 2
+    model: 0
+  ambiguous: 3
+  top_terms:
+    agent: 3
+    machine learning: 2
